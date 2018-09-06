@@ -35,22 +35,10 @@ Router.route('/changeRequest', function (){
   this.render('changeRequest');
 });
 
-Router.route('/about', function (){
-  this.render('about');
+Router.route('/changePwd', function (){
+  this.render('changePwd');
 });
 
-Router.route('/contact', function (){
-  this.render('contact');
+Router.route('/genSettings', function (){
+  this.render('genSettings');
 });
-
-Router.route('/faqs', function (){
-  this.render('faqs');
-});
-
-Router.route('/for_providers', function (){
-  this.render('for_providers');
-});
-
-// Router.route('/def', function (){
-//   this.render('def');
-// });
