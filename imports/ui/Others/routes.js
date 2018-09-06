@@ -14,12 +14,12 @@
 
 Router.route('/', function (){
   //name:'def',
-  this.render('def');
+  this.render('home');
 });
 
-Router.route('/def', function (){
+Router.route('/home', function (){
   //name:'def',
-  this.render('def');
+  this.render('home');
 });
 
 Router.route('/attendence', function (){
@@ -28,6 +28,17 @@ Router.route('/attendence', function (){
 });
 
 Router.route('/parent', function (){
-  //name:'attendence',
   this.render('parent');
+});
+
+Router.route('/changeRequest', function (){
+  this.render('changeRequest');
+});
+
+Router.route('/changePwd', function (){
+  this.render('changePwd');
+});
+
+Router.route('/genSettings', function (){
+  this.render('genSettings');
 });
